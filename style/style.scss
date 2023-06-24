@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(51, 51, 250, 0.94);
+}
+
+.header-container {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 100px;
+
+    .nav-container {
+        background-color: rgb(0, 0, 204);
+        width: 95%;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #text-header {
+            font-size: 27px;
+            color: #fff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
+    .body-container {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        gap: 5px;
+
+        #text-content {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        #input-content {
+            width: 50%;
+            height: 50px;
+            margin: auto;
+            margin-top: 7%;
+            border: 2px solid;
+            border-radius: 7px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #btn {
+            width: 25%;
+            height: 50px;
+            margin: auto;
+            margin-top: 7%;
+            background-color: rgb(37, 37, 240);
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    .result-container {
+        width: 80%;
+        background-color: #fff;
+        border: none;
+        border-radius: 2px;
+        font-size: 20px;
+        box-shadow: rgb(81, 81, 192) 0px 3px 20px;
+        margin-left: 50px;
+        margin-top: 7%;
+    }
+
+    .footer-container {
+        width: 100%;
+        font-size: 25px;
+        color: #722472;
+        margin-top: 7%;
+
+        .high-low {
+            width: 100%;
+            font-size: 25px;
+            color: #722472;
+            margin-top: 7%;
+        }
+    }
+}
